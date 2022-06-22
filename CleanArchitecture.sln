@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{74CEE192-35AC-4478-831C-D61C8BC414BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A33C73B3-6ED1-4395-8807-25AD5B623FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Web", "src\Presentation\CleanArch.Web\CleanArch.Web.csproj", "{86F6400B-DF57-4E3F-B437-4A3DDD1C555D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86F6400B-DF57-4E3F-B437-4A3DDD1C555D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F6400B-DF57-4E3F-B437-4A3DDD1C555D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F6400B-DF57-4E3F-B437-4A3DDD1C555D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F6400B-DF57-4E3F-B437-4A3DDD1C555D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A33C73B3-6ED1-4395-8807-25AD5B623FAC} = {74CEE192-35AC-4478-831C-D61C8BC414BD}
+		{86F6400B-DF57-4E3F-B437-4A3DDD1C555D} = {A33C73B3-6ED1-4395-8807-25AD5B623FAC}
 	EndGlobalSection
 EndGlobal
