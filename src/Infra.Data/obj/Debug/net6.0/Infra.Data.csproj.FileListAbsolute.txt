@@ -1,0 +1,17 @@
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.csproj.AssemblyReference.cache
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.AssemblyInfoInputs.cache
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.AssemblyInfo.cs
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.csproj.CoreCompileInputs.cache
+E:\CleanArchitecture\src\Infra.Data\bin\Debug\net6.0\Infra.Data.deps.json
+E:\CleanArchitecture\src\Infra.Data\bin\Debug\net6.0\Infra.Data.runtimeconfig.json
+E:\CleanArchitecture\src\Infra.Data\bin\Debug\net6.0\Infra.Data.dll
+E:\CleanArchitecture\src\Infra.Data\bin\Debug\net6.0\Infra.Data.pdb
+E:\CleanArchitecture\src\Infra.Data\bin\Debug\net6.0\Domain.dll
+E:\CleanArchitecture\src\Infra.Data\bin\Debug\net6.0\Domain.pdb
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.csproj.CopyComplete
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.dll
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\refint\Infra.Data.dll
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.pdb
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\Infra.Data.genruntimeconfig.cache
+E:\CleanArchitecture\src\Infra.Data\obj\Debug\net6.0\ref\Infra.Data.dll
