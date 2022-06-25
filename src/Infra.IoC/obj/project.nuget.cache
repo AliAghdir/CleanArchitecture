@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TPdGPKy3Fnetnb7w7I6EjTpYoLCzbuNDTtofak8g1YVD3jmLp+2OOOcgfffUJYqtoKqDoxEptivD+SZ/VH9dHg==",
+  "dgSpecHash": "f85HIyf9XU1itYNiwZnwYcjmycMB1WKO8CKNnAF6jXeiGNNqSUPSYcyU7KTcBz+g/MnGSTvMVS4KnHfAQeZERA==",
   "success": true,
   "projectFilePath": "E:\\CleanArchitecture\\src\\Infra.IoC\\Infra.IoC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Data System\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Data System\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Data System\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
