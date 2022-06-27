@@ -10,3 +10,10 @@ E:\CleanArchitecture\src\Infra.IoC\obj\Debug\net6.0\Infra.IoC.dll
 E:\CleanArchitecture\src\Infra.IoC\obj\Debug\net6.0\refint\Infra.IoC.dll
 E:\CleanArchitecture\src\Infra.IoC\obj\Debug\net6.0\Infra.IoC.pdb
 E:\CleanArchitecture\src\Infra.IoC\obj\Debug\net6.0\ref\Infra.IoC.dll
+E:\CleanArchitecture\src\Infra.IoC\bin\Debug\net6.0\Application.dll
+E:\CleanArchitecture\src\Infra.IoC\bin\Debug\net6.0\Domain.dll
+E:\CleanArchitecture\src\Infra.IoC\bin\Debug\net6.0\Infra.Data.dll
+E:\CleanArchitecture\src\Infra.IoC\bin\Debug\net6.0\Application.pdb
+E:\CleanArchitecture\src\Infra.IoC\bin\Debug\net6.0\Domain.pdb
+E:\CleanArchitecture\src\Infra.IoC\bin\Debug\net6.0\Infra.Data.pdb
+E:\CleanArchitecture\src\Infra.IoC\obj\Debug\net6.0\Infra.IoC.csproj.CopyComplete

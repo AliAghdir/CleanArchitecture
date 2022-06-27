@@ -1,5 +1,7 @@
+using System.Collections.Immutable;
 using Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<UniversityDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("UnivetsityDbConnection")));
+builder.Services.RegisterServices();
 
 var app = builder.Build();
 
