@@ -4,6 +4,64 @@
     "E:\\CleanArchitecture\\src\\Presentation\\CleanArch.Web\\CleanArch.Web.csproj": {}
   },
   "projects": {
+    "E:\\CleanArchitecture\\src\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CleanArchitecture\\src\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "E:\\CleanArchitecture\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Data System\\.nuget\\packages\\",
+        "outputPath": "E:\\CleanArchitecture\\src\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Data System\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "E:\\NugetPackage": {},
+          "E:\\RTLbootstrap": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\CleanArchitecture\\src\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\CleanArchitecture\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\CleanArchitecture\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -138,6 +196,80 @@
         }
       }
     },
+    "E:\\CleanArchitecture\\src\\Infra.IoC\\Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CleanArchitecture\\src\\Infra.IoC\\Infra.IoC.csproj",
+        "projectName": "Infra.IoC",
+        "projectPath": "E:\\CleanArchitecture\\src\\Infra.IoC\\Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\Data System\\.nuget\\packages\\",
+        "outputPath": "E:\\CleanArchitecture\\src\\Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Data System\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "E:\\NugetPackage": {},
+          "E:\\RTLbootstrap": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\CleanArchitecture\\src\\Application\\Application.csproj": {
+                "projectPath": "E:\\CleanArchitecture\\src\\Application\\Application.csproj"
+              },
+              "E:\\CleanArchitecture\\src\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\CleanArchitecture\\src\\Domain\\Domain.csproj"
+              },
+              "E:\\CleanArchitecture\\src\\Infra.Data\\Infra.Data.csproj": {
+                "projectPath": "E:\\CleanArchitecture\\src\\Infra.Data\\Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\CleanArchitecture\\src\\Presentation\\CleanArch.Web\\CleanArch.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -164,6 +296,9 @@
             "projectReferences": {
               "E:\\CleanArchitecture\\src\\Infra.Data\\Infra.Data.csproj": {
                 "projectPath": "E:\\CleanArchitecture\\src\\Infra.Data\\Infra.Data.csproj"
+              },
+              "E:\\CleanArchitecture\\src\\Infra.IoC\\Infra.IoC.csproj": {
+                "projectPath": "E:\\CleanArchitecture\\src\\Infra.IoC\\Infra.IoC.csproj"
               }
             }
           }

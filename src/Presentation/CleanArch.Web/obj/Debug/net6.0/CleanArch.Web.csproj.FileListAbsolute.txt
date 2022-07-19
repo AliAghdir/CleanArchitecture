@@ -63,3 +63,8 @@ E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Domain.pdb
 E:\CleanArchitecture\src\Presentation\CleanArch.Web\obj\Debug\net6.0\CleanArch.Web.csproj.CopyComplete
 E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Humanizer.dll
 E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Application.dll
+E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Infra.IoC.dll
+E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Infra.IoC.pdb
+E:\CleanArchitecture\src\Presentation\CleanArch.Web\bin\Debug\net6.0\Application.pdb
