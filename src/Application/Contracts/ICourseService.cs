@@ -1,9 +1,8 @@
 using Application.ViewModels;
 
-namespace Application.Contracts
+namespace Application.Contracts;
+
+public interface ICourseService
 {
-    public interface ICourseService
-    {
-        CourseViewModel GetAll();
-    }
+    CourseViewModel GetAll();
 }
