@@ -14,10 +14,17 @@ namespace Application.Services
             _repository =repository;
         }
 
-        public CourseViewModel GetAll()
+        public CoursesViewModel GetAll()
+        {
+            return new CoursesViewModel{
+                Courses=_repository.GetAll()
+            };
+        }
+
+        public CourseViewModel GetById(int courseId)
         {
             return new CourseViewModel{
-                Courses=_repository.GetAll()
+                Course=_repository.GetById(courseId)
             };
         }
     }

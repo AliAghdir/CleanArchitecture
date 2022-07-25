@@ -1,9 +1,8 @@
 using Domain.Entities;
 
-namespace Application.ViewModels
+namespace Application.ViewModels;
+
+public class CourseViewModel
 {
-    public class CourseViewModel
-    {
-        public IEnumerable<Course> Courses { get; set; }
-    }
+    public Course Course { get; set; }
 }

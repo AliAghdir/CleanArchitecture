@@ -4,5 +4,5 @@ namespace Application.Contracts;
 
 public interface ICourseService
 {
-    CourseViewModel GetAll();
+    CoursesViewModel GetAll();
 }
